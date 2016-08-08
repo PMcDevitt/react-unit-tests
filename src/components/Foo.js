@@ -1,6 +1,6 @@
-import React, { PropTypes } from 'react';
+import React, {PropTypes} from 'react';
 
-const propTypes = {'working': 'testing'};
+const propTypes = {};
 
 const defaultProps = {};
 
@@ -10,8 +10,8 @@ export default class Foo extends React.Component {
   }
 
   render() {
-    return (
-      <div className="foo" />
+    return ( <
+      div className = "foo" / >
     );
   }
 }
