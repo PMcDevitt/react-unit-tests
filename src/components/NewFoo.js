@@ -1,4 +1,5 @@
-var React = require('react');
+var React = require('react')
+var ReactDOM = require('react-dom')
 
 module.exports = React.createClass({
   displayName: 'NewFoo',
@@ -8,8 +9,8 @@ module.exports = React.createClass({
   },
 
   componentDidMount: function() {
-    this.setDone(this.refs.done.getDOMNode().checked);
-  },
+    this.setDone(this.refs.done.defaultChecked);
+    },
 
   render: function() {
     return (
